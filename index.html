@@ -1,11 +1,102 @@
+<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdul Walid Wahab</title>
+  <link rel="stylesheet" href="src/css/styles.css">
 </head>
 <body>
-    Hello Niggas!
+  <header>
+    <h1>A. W. W</h1>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <nav id="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#projects">Projects</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+      <a href="#media">Media</a>
+    </nav>
+    <button class="toggle-btn" onclick="toggleTheme()">🌙</button>
+  </header>
+
+  <section id="home">
+    <h2>Home</h2>
+    <p>Welcome to my academic portfolio website. Explore my work, research, and achievements.</p>
+    <div class="image-placeholder">[Image]</div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I am a medical laboratory scientist!</p>
+    <div class="image-placeholder">
+        <img src="src/img/profile1.jpg" alt="This is my picture">
+    </div>
+  </section>
+
+  <section id="research">
+    <h2>Research</h2>
+    <p>Description of research interests and publications.</p>
+    <div class="image-placeholder">[Research Image]</div>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div id="project-card">
+        <h2>High Blood Pressure</h2>
+        <p>This is a killer disease.</p>
+        <img src="...." alt="Project image">
+    </div>
+    <div id="project-card">
+        <h2>High Glucose</h2>
+        <p>Our Blood Sugar (Glucose) Calculator is a simple tool that helps you assess your current 
+            blood sugar level based on your glucose reading and how long it’s been since your last meal. 
+            Keeping track of your blood sugar is key to managing diabetes and staying healthy overall. 
+            This calculator gives you quick insight into whether your levels are in a normal range, 
+            helping you understand how well your body is handling glucose.
+
+            To get started, just enter your current blood sugar level in mg/dL and how many hours it’s 
+            been since your last meal. The calculator will analyze your input and let you know if your 
+            blood sugar falls into the normal, prediabetes, or diabetes range. This can help you better 
+            understand your metabolic health and take meaningful steps toward improving your diet and 
+            lifestyle. Please note: this tool is for general guidance and does not replace medical advice. 
+            For a complete evaluation, always consult your doctor or healthcare provider. 
+            Regular monitoring is a vital part of effective diabetes management and long-term health.
+          </p>
+        <img src="...." alt="Project image">
+    </div>
+    <div class="image-placeholder">[Project Screenshot]</div>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <p>List academic and professional certifications.</p>
+    <div class="image-placeholder">[Certificate Image]</div>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <p>Share thoughts, articles, or publications.</p>
+    <div class="image-placeholder">[Blog Image]</div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: yourname@university.edu</p>
+    <p>Socials: LinkedIn, Twitter, ResearchGate</p>
+  </section>
+
+  <section id="media">
+    <h2>Media</h2>
+    <p>Photos, videos, and academic media coverage.</p>
+    <div class="image-placeholder">[Media Image]</div>
+  </section>
+
+  <script src="src/js/script.js"></script>
 </body>
 </html>
+
