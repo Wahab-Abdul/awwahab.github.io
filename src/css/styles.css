@@ -22,10 +22,6 @@ body {
   transition: background 0.3s, color 0.3s;
 }
 
-p{
-  color: #004080;
-}
-
 header {
   position: fixed;
   top: 0;
